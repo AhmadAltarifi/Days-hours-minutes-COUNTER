@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    background-image: url(r2.jpg);
+    width: 100%;
+    height: 786px;
+    background-repeat: no-repeat;
+}
+
+#menusection {
+    width: 500px;
+    height: 120px;
+    margin-right: 10px;
+    float: right;
+    border-bottom: 4px solid #33ccff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#menu {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#menu a {
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: 'Lalezar', cursive;
+    padding: 10px;
+    border: 3px solid #33ccff;
+    border-radius: 40px;
+    font-size: 22px;
+}
+
+#menu a:hover {
+    background-color: #33ccff;
+    color: black;
+    padding: 15px;
+}
+
+#header {
+    width: 600px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#header h1 {
+    margin-left: 40px;
+}
+
+#counter {
+    border: 6px solid black;
+    border-right: none;
+    border-radius: 70px;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+
+#counter h1 {
+    text-align: center;
+    font-size: 65px;
+    margin-top: 60px;
+    color: black;
+}
+
+
+/*******************************************************************************/
+
+#contact {
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+
+#contact-h1 {
+    font-size: 17px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#contact-table {
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+table tr td a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    color: aqua;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+#paypal {
+    width: 500px;
+    height: 200px;
+    margin-top: 120px;
+    float: right;
+}
+
+#pay-h1 {
+    width: 400px;
+    height: 50px;
+    color: white;
+    font-size: 17px;
+}
+
+#pay-h1 h1 {
+    margin-left: 20px;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#pay-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+#pay-img img {
+    width: 150px;
+    height: 150px;
+}
+
+
+/***********************************************************************************************/

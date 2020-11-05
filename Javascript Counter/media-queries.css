@@ -1,0 +1,275 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* STYLES GO HERE */
+}
+
+@media(max-width: 360px) {
+    #header {
+        width: 220px;
+        height: 50px;
+        float: right;
+        margin-right: 5px;
+        margin-top: 20px;
+        font-family: 'Odibee Sans', cursive;
+    }
+    #header h1 {
+        margin-left: 20px;
+    }
+    #counter {
+        border: 6px solid black;
+        border-radius: 70px;
+        width: 300px;
+        height: 50px;
+        float: right;
+        margin-right: 0px;
+        margin-top: 85px;
+        clear: both;
+    }
+    #counter h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        color: white;
+    }
+    #contact {
+        width: 300px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 90px;
+        float: left;
+    }
+    #paypal {
+        width: 400px;
+        height: 100px;
+        margin-top: 50px;
+        float: right;
+    }
+}
+
+@media(max-width: 414px) {
+    #header {
+        width: 410px;
+        height: 50px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 30px;
+        font-family: 'Odibee Sans', cursive;
+        color: white;
+    }
+    #contact {
+        width: 300px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 180px;
+        float: left;
+    }
+    #counter {
+        border: 6px solid black;
+        border-radius: 70px;
+        width: 380px;
+        height: 80px;
+        float: right;
+        margin-right: 5px;
+        margin-top: 65px;
+        clear: both;
+    }
+    #paypal {
+        width: 400px;
+        height: 100px;
+        margin-top: 50px;
+        float: right;
+    }
+    #counter h1 {
+        text-align: center;
+        font-size: 44px;
+        margin-top: 13px;
+        color: white;
+    }
+}
+
+@media(max-width: 320px) {
+    #header {
+        width: 310px;
+        height: 50px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 30px;
+        font-family: 'Odibee Sans', cursive;
+        color: black;
+    }
+    #counter {
+        border: 6px solid black;
+        border-radius: 70px;
+        width: 300px;
+        height: 80px;
+        float: right;
+        margin-right: 5px;
+        margin-top: 65px;
+        clear: both;
+    }
+    #counter h1 {
+        text-align: center;
+        font-size: 34px;
+        margin-top: 13px;
+        color: white;
+    }
+    #contact {
+        width: 250px;
+        height: 100px;
+        margin-left: 0px;
+        margin-top: 180px;
+        float: left;
+    }
+    table tr td a {
+        margin-left: 10px;
+        color: white;
+        text-decoration: none;
+        color: aqua;
+        font-family: 'Sulphur Point', sans-serif;
+    }
+    #paypal {
+        width: 300px;
+        height: 100px;
+        margin-top: 50px;
+        float: right;
+    }
+    #pay-h1 {
+        width: 300px;
+        height: 50px;
+        color: white;
+        font-size: 15px;
+    }
+    #pay-h1 h1 {
+        margin-left: 0px;
+        font-family: 'Odibee Sans', cursive;
+    }
+}
+
+@media(max-width: 375px) {
+    #header {
+        width: 360px;
+        height: 50px;
+        float: right;
+        margin-right: 35px;
+        margin-top: 30px;
+        font-family: 'Odibee Sans', cursive;
+        color: white;
+    }
+    #counter {
+        border: 6px solid black;
+        border-radius: 70px;
+        width: 360px;
+        height: 80px;
+        float: right;
+        margin-right: 0px;
+        margin-top: 85px;
+        clear: both;
+    }
+    #counter h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 13px;
+        color: white;
+    }
+    #contact {
+        width: 250px;
+        height: 100px;
+        margin-left: 0px;
+        margin-top: 180px;
+        float: left;
+    }
+    table tr td a {
+        margin-left: 15px;
+        color: white;
+        text-decoration: none;
+        color: aqua;
+        font-family: 'Sulphur Point', sans-serif;
+    }
+    #paypal {
+        width: 370px;
+        height: 100px;
+        margin-top: 50px;
+        float: right;
+    }
+    #pay-h1 {
+        width: 370px;
+        height: 50px;
+        color: white;
+        font-size: 17px;
+    }
+    #pay-h1 h1 {
+        margin-left: 0px;
+        font-family: 'Odibee Sans', cursive;
+    }
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /* STYLES GO HERE */
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* STYLES GO HERE */
+}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPhone 5 (landscape)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+}
+
+
+/* iPhone 5 (portrait)----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+}
